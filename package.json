@@ -1,0 +1,9 @@
+{
+    "name": "role-contracts",
+    "version": "1.0.0",
+    "description": "contracts for role/permission associated NFT creation, transfer, etc.",
+    "author": "Emmitt Luhning",
+    "scripts": {
+        "build": "cd contract && ./build.sh && cd ../.."
+    }
+}

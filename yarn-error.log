@@ -1,0 +1,38 @@
+Arguments: 
+  /home/kyriv/.nvm/versions/node/v15.4.0/bin/node /usr/local/bin/yarn build
+
+PATH: 
+  .local/lib/python3.6/site-packages/pyinstaller:/home/kyriv/.nvm/versions/node/v15.4.0/bin:/home/kyriv/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/kyriv/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.4.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/kyriv/projects/Badger/role-contracts/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "role-contracts",
+      "version": "1.0.0",
+      "description": "contracts for role/permission associated NFT creation, transfer, etc.",
+      "author": "Emmitt Luhning",
+      "scripts": {
+          "build": "cd nft-contract && ./build.sh && cd ../.."
+      }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
